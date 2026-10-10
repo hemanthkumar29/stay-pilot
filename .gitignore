@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Env
+.env
+.env.local
+.env.production
+
+# Build
+dist/
+build/
+*.class
+*.jar
+!**/src/**/wrapper/*.jar
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-data/
+
+# Coverage
+coverage/
+*.lcov
